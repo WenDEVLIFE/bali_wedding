@@ -1,5 +1,12 @@
 # Media Credits
 
+## Brand
+
+The Bali Wedding Films logo (`public/bali_logo.png`, plus the transparent
+`public/images/logo-mark.png` and `public/images/logo-full.png` derivatives) was
+supplied for this project. It remains the property of its owner and is used here
+as the demo brand mark.
+
 ## Photography
 
 All photographs are sourced from [Unsplash](https://unsplash.com) and used under

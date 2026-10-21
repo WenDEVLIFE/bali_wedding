@@ -31,9 +31,9 @@ export type SiteConfig = {
 };
 
 export const site: SiteConfig = {
-  name: "Sagara Films",
-  shortName: "Sagara",
-  tagline: "Bali Wedding Films",
+  name: "Bali Wedding Films",
+  shortName: "Bali Wedding Films",
+  tagline: "Cinematic Wedding Videography & Editing",
   description:
     "Cinematic wedding films for destination celebrations in Bali, shaped by emotion, light, and the moments that matter most.",
   nav: [

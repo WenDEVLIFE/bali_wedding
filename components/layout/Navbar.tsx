@@ -134,7 +134,10 @@ export function Navbar() {
         )}
       >
         <Container className="flex h-20 items-center justify-between gap-6">
-          <Wordmark onClick={() => setMenuOpen(false)} />
+          <Wordmark
+            tone={solid ? "dark" : "light"}
+            onClick={() => setMenuOpen(false)}
+          />
 
           <div className="hidden items-center gap-8 md:flex">
             <nav aria-label="Primary">

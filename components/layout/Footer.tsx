@@ -11,8 +11,8 @@ export function Footer() {
       <Container className="relative z-10 pt-16 pb-10 md:pt-20">
         <div className="grid gap-12 md:grid-cols-[1.3fr_1fr] md:gap-16">
           <div>
-            <Wordmark />
-            <p className="mt-6 max-w-sm font-sans text-sm leading-[1.7] text-ivory/60">
+            <Wordmark variant="full" tone="light" />
+            <p className="mt-7 max-w-sm font-sans text-sm leading-[1.7] text-ivory/60">
               Cinematic wedding films for destination celebrations in Bali,
               shaped by emotion, light, and the moments that matter most.
             </p>
@@ -61,15 +61,15 @@ export function Footer() {
 
         <div className="mt-14 border-t border-ivory/10 pt-6">
           <div className="flex flex-col gap-3 font-sans text-[11px] tracking-[0.04em] text-ivory/55 sm:flex-row sm:items-center sm:justify-between">
-            <p>© 2026 Sagara Films</p>
+            <p>© 2026 Bali Wedding Films</p>
             <p>{site.tagline} · {site.location}</p>
           </div>
         </div>
       </Container>
 
       <div aria-hidden="true" className="relative z-10 overflow-hidden">
-        <p className="translate-y-[0.12em] text-center font-display text-[clamp(4rem,17vw,15rem)] leading-none font-medium tracking-[0.14em] whitespace-nowrap text-ivory/[0.04] select-none">
-          SAGARA
+        <p className="translate-y-[0.12em] text-center font-display text-[clamp(4rem,17vw,15rem)] leading-none font-medium tracking-[0.2em] whitespace-nowrap text-ivory/[0.04] select-none">
+          BALI
         </p>
       </div>
     </footer>

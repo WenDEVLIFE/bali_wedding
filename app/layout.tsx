@@ -20,7 +20,8 @@ const cormorant = Cormorant_Garamond({
   display: "swap",
 });
 
-const pageTitle = "Sagara Films — Bali Wedding Videography & Wedding Films";
+const pageTitle =
+  "Bali Wedding Films — Cinematic Wedding Videography & Editing";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Sagara Films — Bali wedding films at sunset",
+        alt: "Bali Wedding Films — cinematic wedding films at sunset in Bali",
       },
     ],
     locale: "en_US",

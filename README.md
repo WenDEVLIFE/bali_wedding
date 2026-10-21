@@ -1,4 +1,4 @@
-# Sagara Films — Bali Wedding Films (Demo)
+# Bali Wedding Films (Demo)
 
 A premium, cinematic landing page concept for a Bali wedding videography and
 video-editing studio. Built with Next.js 16 (App Router), React 19, TypeScript,
@@ -64,6 +64,10 @@ docs/                 Project brief, theme, typography, credits, presentation
   with client-approved assets. Keep titles/locations honest.
 - **Services and workflow:** `lib/content.ts` (`services`, `workflow`).
 - **Form field options:** `formServiceOptions` in `lib/content.ts`.
+- **Logo and app icon:** the supplied mark lives at `public/bali_logo.png`; the
+  transparent navigation/footer versions are `public/images/logo-mark.png` and
+  `public/images/logo-full.png`. The browser/app icons are `app/icon.png` and
+  `app/apple-icon.png`.
 - **Design tokens and typography:** `app/globals.css` and `app/layout.tsx`.
 - **Canonical URL / social preview:** copy `.env.example` to `.env.local` for
   local work, and set `NEXT_PUBLIC_SITE_URL` in the deployment environment. Then
